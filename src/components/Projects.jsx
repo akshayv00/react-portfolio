@@ -3,12 +3,50 @@ import { ArrowRight, ExternalLink, GitBranch } from "lucide-react"
 const projects=[
     {
         id:1,
-        title:'Project 1',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione reprehenderit assumenda iure rem fugiat hic.',
+        title:'Airline Reservation System',
+        desc:'Designed and implemented a real-time Airline Reservation ticket booking platform offering a seamless booking experience. Proficient in HTML, CSS, and JavaScript.',
         image:'/projects/image1',
-        tags:['skills'],
+        tags:['HTML' , 'CSS', 'JavaScript'],
         demoUrl:'#',
         githubUrl:'#'
+    },
+    {
+        id:2,
+        title:'iWeather (Website and Application)',
+        desc:'Developed a weather application displaying current temperature, humidity, minimum and maximum temperatures, sunset and sunrise times, and rainfall chances for specified locations. Utilized HTML, CSS, JavaScript, and Android Studio for development.',
+        image:'/projects/image1',
+        tags:['HTML' , 'CSS', 'JavaScript'],
+        demoUrl:'#',
+        githubUrl:'#'   
+    },
+    {
+        id:3,
+        title:'Rock Papers Scissors Game',
+        desc:'Developed a one-on-one interactive gaming website with the computer as the opponent, using HTML and CSS',
+        image:'/projects/image1',
+        tags:['HTML' , 'CSS'],
+        demoUrl:'#',
+        githubUrl:'#'   
+    },
+    {
+        id:4,
+        title:'Parking Space Locator IoT Based Project',
+        desc:'Developed an IoT-based parking space locator using sensors to monitor and report parking space availability. Utilized Arduino Uno and C programming for implementation',
+        image:'/projects/image1',
+        tags:['Arduino Uno', 'C programming'],
+        demoUrl:'#',
+        githubUrl:'#' 
+
+    },
+    {
+        id:5,
+        title:'Talking Tails - A Community Service',
+        desc:'Created a community website tailored to user needs and convenience, incorporating a QR code feature for mobile menu display. Developed with HTML, CSS, and JavaScript',
+        image:'/projects/image1',
+        tags:['HTML' , 'CSS', 'JavaScript'],
+        demoUrl:'#',
+        githubUrl:'#' 
+
     }
 ]
 

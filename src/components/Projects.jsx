@@ -5,7 +5,7 @@ const projects=[
         id:1,
         title:'Airline Reservation System',
         desc:'Designed and implemented a real-time Airline Reservation ticket booking platform offering a seamless booking experience. Proficient in HTML, CSS, and JavaScript.',
-        image:'/projects/image1',
+        // image:'/projects/image1',
         tags:['HTML' , 'CSS', 'JavaScript'],
         demoUrl:'#',
         githubUrl:'#'
@@ -14,7 +14,7 @@ const projects=[
         id:2,
         title:'iWeather (Website and Application)',
         desc:'Developed a weather application displaying current temperature, humidity, minimum and maximum temperatures, sunset and sunrise times, and rainfall chances for specified locations. Utilized HTML, CSS, JavaScript, and Android Studio for development.',
-        image:'/projects/image1',
+        // image:'/projects/image1',
         tags:['HTML' , 'CSS', 'JavaScript'],
         demoUrl:'#',
         githubUrl:'#'   
@@ -23,7 +23,7 @@ const projects=[
         id:3,
         title:'Rock Papers Scissors Game',
         desc:'Developed a one-on-one interactive gaming website with the computer as the opponent, using HTML and CSS',
-        image:'/projects/image1',
+        // image:'/projects/image1',
         tags:['HTML' , 'CSS'],
         demoUrl:'#',
         githubUrl:'#'   
@@ -32,7 +32,7 @@ const projects=[
         id:4,
         title:'Parking Space Locator IoT Based Project',
         desc:'Developed an IoT-based parking space locator using sensors to monitor and report parking space availability. Utilized Arduino Uno and C programming for implementation',
-        image:'/projects/image1',
+        // image:'/projects/image1',
         tags:['Arduino Uno', 'C programming'],
         demoUrl:'#',
         githubUrl:'#' 
@@ -42,7 +42,7 @@ const projects=[
         id:5,
         title:'Talking Tails - A Community Service',
         desc:'Created a community website tailored to user needs and convenience, incorporating a QR code feature for mobile menu display. Developed with HTML, CSS, and JavaScript',
-        image:'/projects/image1',
+        // image:'/projects/image1',
         tags:['HTML' , 'CSS', 'JavaScript'],
         demoUrl:'#',
         githubUrl:'#' 
@@ -66,10 +66,10 @@ export const Projects = () =>{
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project,key)=>(
                     <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                        <div className="h-48 overflow-hidden">
+                        {/* <div className="h-48 overflow-hidden">
                             <img src={project.image} alt={project.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
-                        </div>
+                        </div> */}
 
                         <div className="p-6">
                             <div className="flex flex-wrap gap-2 mb-4">
@@ -87,7 +87,7 @@ export const Projects = () =>{
                             {project.desc}
                         </p>
 
-                        <div className="flex justify-between items-center">
+                        {/* <div className="flex justify-between items-center">
                             <div className="flex space-3">
                                 <a href={project.demoUrl} className="text-forground/80 hover:text-primary transition-colors duration-300" target="_blank">
                                     <ExternalLink size={20}/>
@@ -96,7 +96,7 @@ export const Projects = () =>{
                                     <GitBranch size={20}/>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
